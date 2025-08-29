@@ -1,8 +1,8 @@
 <?php
 
-namespace Espn\Tests;
+namespace MichaelCrowcroft\EspnLaravel\Tests;
 
-use Espn\EspnServiceProvider;
+use MichaelCrowcroft\EspnLaravel\EspnServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

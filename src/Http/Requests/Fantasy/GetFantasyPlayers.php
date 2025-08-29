@@ -1,6 +1,6 @@
 <?php
 
-namespace Espn\Http\Requests\Fantasy;
+namespace MichaelCrowcroft\EspnLaravel\Http\Requests\Fantasy;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;

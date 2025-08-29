@@ -1,9 +1,7 @@
 <?php
 
-namespace Espn;
+namespace MichaelCrowcroft\EspnLaravel;
 
-use Espn\Facades\Espn as EspnFacade;
-use Illuminate\Support\ServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

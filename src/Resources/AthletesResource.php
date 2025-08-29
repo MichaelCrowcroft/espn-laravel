@@ -1,10 +1,10 @@
 <?php
 
-namespace Espn\Resources;
+namespace MichaelCrowcroft\EspnLaravel\Resources;
 
-use Espn\Http\Connectors\CoreConnector;
-use Espn\Http\Requests\Athletes\GetAthleteById;
-use Espn\Http\Requests\Athletes\GetAthletes;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\CoreConnector;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Athletes\GetAthleteById;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Athletes\GetAthletes;
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 

@@ -1,6 +1,6 @@
 <?php
 
-use Espn\Http\Requests\Fantasy\GetFantasyPlayers;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Fantasy\GetFantasyPlayers;
 
 it('builds fantasy players endpoint and query correctly', function () {
     $req = new GetFantasyPlayers(year: 2024, view: 'mLiveScoring');

@@ -1,9 +1,9 @@
 <?php
 
-namespace Espn\Resources;
+namespace MichaelCrowcroft\EspnLaravel\Resources;
 
-use Espn\Http\Connectors\FantasyConnector;
-use Espn\Http\Requests\Fantasy\GetFantasyPlayers;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\FantasyConnector;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Fantasy\GetFantasyPlayers;
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 

@@ -1,7 +1,7 @@
 <?php
 
-use Espn\Http\Connectors\CoreConnector;
-use Espn\Http\Connectors\FantasyConnector;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\CoreConnector;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\FantasyConnector;
 
 it('core connector resolves default base url and trims trailing slash', function () {
     $default = new CoreConnector();

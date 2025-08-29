@@ -1,11 +1,11 @@
 <?php
 
-namespace Espn;
+namespace MichaelCrowcroft\EspnLaravel;
 
-use Espn\Http\Connectors\CoreConnector;
-use Espn\Http\Connectors\FantasyConnector;
-use Espn\Resources\AthletesResource;
-use Espn\Resources\FantasyResource;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\CoreConnector;
+use MichaelCrowcroft\EspnLaravel\Http\Connectors\FantasyConnector;
+use MichaelCrowcroft\EspnLaravel\Resources\AthletesResource;
+use MichaelCrowcroft\EspnLaravel\Resources\FantasyResource;
 
 class Espn
 {

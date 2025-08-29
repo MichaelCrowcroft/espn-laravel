@@ -1,7 +1,7 @@
 <?php
 
-use Espn\Http\Requests\Athletes\GetAthleteById;
-use Espn\Http\Requests\Athletes\GetAthletes;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Athletes\GetAthleteById;
+use MichaelCrowcroft\EspnLaravel\Http\Requests\Athletes\GetAthletes;
 
 it('builds athletes list endpoint and query correctly', function () {
     $req = new GetAthletes(page: 2, limit: 500);

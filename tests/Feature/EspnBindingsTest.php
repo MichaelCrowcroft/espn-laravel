@@ -1,9 +1,9 @@
 <?php
 
-use Espn\Espn;
-use Espn\Facades\Espn as EspnFacade;
-use Espn\Resources\AthletesResource;
-use Espn\Resources\FantasyResource;
+use MichaelCrowcroft\EspnLaravel\Espn;
+use MichaelCrowcroft\EspnLaravel\Facades\Espn as EspnFacade;
+use MichaelCrowcroft\EspnLaravel\Resources\AthletesResource;
+use MichaelCrowcroft\EspnLaravel\Resources\FantasyResource;
 
 it('resolves espn as a singleton from the container', function () {
     $one = app(Espn::class);

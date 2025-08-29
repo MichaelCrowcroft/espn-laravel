@@ -1,6 +1,6 @@
 <?php
 
-namespace Espn\Http\Connectors;
+namespace MichaelCrowcroft\EspnLaravel\Http\Connectors;
 
 use Saloon\Http\Connector;
 

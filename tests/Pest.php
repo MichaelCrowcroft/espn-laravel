@@ -1,6 +1,6 @@
 <?php
 
-use Espn\Tests\TestCase;
+use MichaelCrowcroft\EspnLaravel\Tests\TestCase;
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-namespace Espn\Http\Requests\Athletes;
+namespace MichaelCrowcroft\EspnLaravel\Http\Requests\Athletes;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
